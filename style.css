@@ -133,3 +133,20 @@ text {
   font-size: large;
   margin-top: 3px;
 }
+footer {
+  background-color: #35475a;
+  min-height: 40px;
+}
+footer p {
+  padding-top: 8px;
+  text-align: center;
+
+  color: white;
+}
+footer p a {
+  color: #e9edee;
+}
+.fine {
+  background-color: #232f3e;
+  text-align: center;
+}
