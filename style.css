@@ -5,7 +5,28 @@ header {
   background-color: #232f3e;
 }
 .logo {
+  height: 100px;
   padding-left: 50px;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
+}
+.menu {
+  margin: 0%;
+  background-color: #35475a;
+  height: 40px;
+}
+a {
+  color: #edf8ff;
+  text-decoration: none;
+  padding-right: 10px;
+  margin: 5px;
+  font-size: x-large;
+}
+.orangebox {
+  background-color: #f56600;
+  margin: 40px;
+  height: 50px;
+}
+.orangebox p {
+  color: #edf8ff;
 }
