@@ -29,9 +29,9 @@ console.log("esercizio 3", pets);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-const.petsfirst = pets.shift(dog);
-pets.push(firstpet);
-console.log('esercizio 4',petsfirst)
+// const.petsfirst = pets.shift(dog);
+// pets.push(firstpet);
+// console.log('esercizio 4',petsfirst)
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
@@ -56,7 +56,10 @@ const cars = [
     trims: ["life", "style", "r-line"],
   },
 ];
-
+for (let i = 0; i < cars.length; i++) {
+  cars[i].licensePlate = "FR452RE";
+}
+console.log("eserecizio 5", cars);
 /* ESERCIZIO 6
     Scrivi del codice per aggiungere un nuovo oggetto in ultima posizione nell'array "cars", rispettando la struttura degli altri elementi.
     Successivamente, rimuovi l'ultimo elemento della proprietà "trims" da ogni auto.
