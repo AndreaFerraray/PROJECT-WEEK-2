@@ -21,7 +21,11 @@ console.log("esercizio2", pets);
 /* ESERCIZIO 3
     Scrivi del codice per stampare nuovamente in console gli elementi dell'array "pets", questa volta in ordine invertito.
 */
+pets.sort(function (a, b) {
+  return b.localeCompare(a);
+});
 
+console.log("esercizio 3", pets);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
