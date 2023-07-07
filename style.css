@@ -120,8 +120,7 @@ text {
   display: inline-block;
   height: 440px;
 }
-.visore img,
-.music img {
+.visore img {
   margin-top: 30px;
   max-height: 350px;
   width: 100%;
@@ -129,8 +128,7 @@ text {
 .visore {
   margin: 30px;
 }
-.visore p,
-.music p {
+.visore p {
   font-size: large;
   margin-top: 3px;
 }
@@ -155,4 +153,8 @@ footer p a {
 .fine {
   background-color: #232f3e;
   text-align: center;
+}
+.music {
+  background-image: url(assets/img_10.png);
+  background-size: cover;
 }
