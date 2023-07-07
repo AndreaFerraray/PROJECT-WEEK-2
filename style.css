@@ -1,12 +1,13 @@
 body {
   margin: 0%;
 }
+
 header {
   background-color: #232f3e;
 }
 .logo {
-  height: 100px;
-  padding-left: 50px;
+  height: 50px;
+  padding-left: 30px;
   padding-top: 20px;
   padding-bottom: 10px;
 }
@@ -21,6 +22,12 @@ a {
   padding-right: 10px;
   margin: 5px;
   font-size: x-large;
+  margin-left: 30px;
+}
+main {
+  text-align: center;
+  width: 100%;
+  margin: 0%;
 }
 .orangebox {
   background-color: #f56600;
@@ -29,4 +36,52 @@ a {
 }
 .orangebox p {
   color: #edf8ff;
+  text-align: center;
+  font-size: x-large;
+  padding-top: 10px;
+}
+.Gift {
+  background-image: url(assets/bg-img.png);
+  background-repeat: repeat-y;
+
+  height: 200px;
+
+  margin: 40px;
+  color: white;
+  vertical-align: auto;
+}
+h1 {
+  padding-top: 60px;
+}
+h3 {
+  font-size: large;
+}
+.blockimg {
+  display: inline-block;
+  height: 600px;
+}
+
+.kindley {
+  background-image: url(assets/img_1.jpg);
+  background-size: cover;
+  background-position: left;
+  border-radius: 10%;
+}
+.computer {
+  background-image: url(assets/img_2.jpg);
+  background-size: cover;
+  background-position: left;
+  border-radius: 10%;
+}
+.watch {
+  background-image: url(assets/img_3.jpg);
+  background-size: cover;
+  background-position: left;
+  border-radius: 10%;
+}
+
+.blockimg div {
+  width: 250px;
+  min-height: 350px;
+  display: inline-block;
 }
