@@ -133,9 +133,14 @@ text {
   font-size: large;
   margin-top: 3px;
 }
+.music img {
+  width: 100%;
+  margin: 30px;
+}
 footer {
   background-color: #35475a;
   min-height: 40px;
+  width: 100%;
 }
 footer p {
   padding-top: 8px;
