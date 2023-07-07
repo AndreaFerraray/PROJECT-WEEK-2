@@ -29,9 +29,9 @@ console.log("esercizio 3", pets);
 /* ESERCIZIO 4
     Scrivi del codice per spostare il primo elemento dall'array "pets" in ultima posizione.
 */
-// const.petsfirst = pets.shift(dog);
-// pets.push(firstpet);
-// console.log('esercizio 4',petsfirst)
+const petsfirst = pets.shift("dog");
+pets.push(petsfirst);
+console.log("esercizio 4", petsfirst);
 
 /* ESERCIZIO 5
     Dato il seguente array di oggetti, scrivi del codice per aggiungere ad ognuno di essi una proprietà "licensePlate" con valore a tua scelta.
